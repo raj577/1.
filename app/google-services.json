@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "695356672774",
+    "firebase_url": "https://mogeek-45f82.firebaseio.com",
+    "project_id": "mogeek-45f82",
+    "storage_bucket": "mogeek-45f82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695356672774:android:c0489a533f69cc8965ac87",
+        "android_client_info": {
+          "package_name": "com.mogeekrin.mogeek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695356672774-jgi6ain1q3vov44qrqo123muc3pm3isf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mogeekrin.mogeek",
+            "certificate_hash": "58d9628d4e5f31b2890ae5569a23868bd73766e4"
+          }
+        },
+        {
+          "client_id": "695356672774-k0jj7i88srlm5j79voiro0s5p9kvn0c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD22IPKfxCGh0Vkfd6QPsslAJ85o-wU8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695356672774-k0jj7i88srlm5j79voiro0s5p9kvn0c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

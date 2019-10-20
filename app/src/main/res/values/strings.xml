@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MoGeek</string>
+    <string name="contentdescLoginlogo">Logo Login Page</string>
+    <string name="hintemail">Your Email</string>
+    <string name="PasswordHint">Password</string>
+    <string name="action_search_text">Search</string>
+    <string name="acrion_settings">Account Settings</string>
+    <string name="action_logout">Logout</string>
+</resources>
