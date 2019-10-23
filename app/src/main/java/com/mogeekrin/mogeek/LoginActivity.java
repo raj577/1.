@@ -31,11 +31,20 @@ private Button loginBtn;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 mAuth = FirebaseAuth.getInstance();
-        loginBtn = findViewById(R.id.login_btn);
-        loginRegBth = findViewById(R.id.login_reg_btn);
-        loginEmailtext = findViewById(R.id.email);
-        loginPassBtn = findViewById(R.id.password);
-        loginProgressBar = findViewById(R.id.loginprogressBar);
+        loginBtn = findViewById(R.id.reg_createaccount_btn);
+        loginRegBth = findViewById(R.id.alreadyacc_btn);
+        loginEmailtext = findViewById(R.id.reg_email);
+        loginPassBtn = findViewById(R.id.reg_confirm_password);
+        loginProgressBar = findViewById(R.id.regloginprogressBar);
+
+        loginRegBth.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent regIntent = new Intent(LoginActivity.this,RegisterActivity.class);
+                startActivity(regIntent);
+
+            }
+        });
 
 loginBtn.setOnClickListener(new View.OnClickListener() {
     @Override
@@ -56,8 +65,10 @@ loginBtn.setOnClickListener(new View.OnClickListener() {
 
                     //If the login is sussefull then
                     if (task.isSuccessful()){
-
-                  sendToMain();
+Intent setupIntent = new Intent(LoginActivity.this,SetuoActivity.class);
+startActivity(setupIntent);
+finish();
+//                  sendToMain();
 
                     }
                    //if login not ssufull then
@@ -73,6 +84,7 @@ String errorMessage  = task.getException().getMessage();
 
     }
 });
+
 
 
     }

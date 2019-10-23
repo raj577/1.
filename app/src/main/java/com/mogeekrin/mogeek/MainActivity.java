@@ -56,6 +56,11 @@ getSupportActionBar().setTitle("MoGeek... Be Smart");
                 logout();
             return true;
 
+            case R.id.settings_btn :
+                Intent setupintent = new Intent(MainActivity.this,SetuoActivity.class);
+                startActivity(setupintent);
+                return true;
+
             default :
                 return false;
         }
@@ -68,6 +73,8 @@ getSupportActionBar().setTitle("MoGeek... Be Smart");
         Intent intent = new Intent(MainActivity.this,LoginActivity.class);
         startActivity(intent);
         finish();
+
+
     }
 
 
