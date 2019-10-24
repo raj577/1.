@@ -6,4 +6,8 @@
     <string name="action_search_text">Search</string>
     <string name="acrion_settings">Account Settings</string>
     <string name="action_logout">Logout</string>
+
+    <string name="title_activity_aboutactivity">Aboutactivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

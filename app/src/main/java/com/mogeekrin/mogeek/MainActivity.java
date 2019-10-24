@@ -61,6 +61,9 @@ getSupportActionBar().setTitle("MoGeek... Be Smart");
                 startActivity(setupintent);
                 return true;
 
+            case R.id.about_btn :
+                Intent aboutIntent = new Intent(MainActivity.this,Aboutactivity.class);
+                startActivity(aboutIntent);
             default :
                 return false;
         }
